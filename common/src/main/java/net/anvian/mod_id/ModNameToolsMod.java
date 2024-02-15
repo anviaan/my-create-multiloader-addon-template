@@ -6,13 +6,13 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CreateUnbreakableToolsMod {
+public class ModNameToolsMod {
     public static final String MOD_ID = "mod_id";
     public static final String NAME = "Mod Name Mod";
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
     public static void init() {
-        LOGGER.info("{} initializing! Create version: {} on platform: {}", NAME, Create.VERSION, CreateUnbreakableToolsPlatform.platformName());
+        LOGGER.info("{} initializing! Create version: {} on platform: {}", NAME, Create.VERSION, ModNameToolsPlatform.platformName());
         ModGroup.register();
     }
 

@@ -3,7 +3,7 @@ package net.anvian.mod_id.fabric;
 import io.github.fabricators_of_create.porting_lib.util.ItemGroupUtil;
 import net.fabricmc.loader.api.FabricLoader;
 
-public class CreateUnbreakableToolsPlatformImpl {
+public class ModNameToolsPlatformImpl {
 	public static String platformName() {
 		return FabricLoader.getInstance().isModLoaded("quilt_loader") ? "Quilt" : "Fabric";
 	}

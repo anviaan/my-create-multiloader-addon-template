@@ -2,7 +2,7 @@ package net.anvian.mod_id;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
-public class CreateUnbreakableToolsPlatform {
+public class ModNameToolsPlatform {
     @ExpectPlatform
     public static int getModGroupId() {
         throw new AssertionError();

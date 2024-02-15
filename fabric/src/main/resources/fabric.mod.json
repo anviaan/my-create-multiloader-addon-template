@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.anvian.mod_id.fabric.CreateUnbreakableToolsFabric"
+      "net.anvian.mod_id.fabric.ModNameToolsFabric"
     ]
   },
   "mixins": [
